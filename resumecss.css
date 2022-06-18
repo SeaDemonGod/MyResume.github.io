@@ -1,0 +1,164 @@
+body{ 
+    margin:0px;
+}
+
+
+/* bodyheader */
+
+#bodyheader{
+    height:65vh;
+    opacity:0.9;
+    background-image: url(image/clockdesk.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    padding-top:1.2rem;
+}
+
+/* horizontal-list */
+
+.horizontal-list{
+    list-style:none;
+    padding-left:0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin:0px 8px 8px 0px;
+}
+
+.horizontal-list li a{
+    color:white;
+    text-decoration:none;
+   
+}
+
+.navi li a{
+    transition: color 0.6s, border-bottom 4s;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.navi li a:hover{
+    color:skyblue;
+    border-bottom: 1px solid whitesmoke;
+}
+
+
+/* Social-Container */
+
+#name-social-conatiner{
+    margin-top:20vh;
+}
+
+#my-name{
+    font-family: Times;
+    font-weight:700;
+    color:skyblue;
+    letter-spacing:0.1rem;
+    margin-bottom:0.5rem;
+    font-size:3rem;
+
+}
+
+
+.social-icons li a i{
+    
+    padding:8px;
+    width:1rem;
+    border-radius:50%;
+    font-size:1rem;
+}
+
+
+.social-icons li a i:hover{
+    box-shadow:0px 0px 6px 4px;
+}
+
+#li:hover{
+    color: #0A66C2;
+}
+#sf:hover{
+    color: #F7771D;
+}
+#rd:hover{
+    color: #FF4500;
+}
+#fb:hover{
+    color: #0D88EF;
+}
+#qa:hover{
+    color: #B92B27;
+}
+
+#about{
+    height:auto;
+    width:100%;
+    position:relative;
+}
+
+#my-pic{
+    height :17rem;
+    width: 17rem;
+    margin:auto;
+    margin-top:-13vh;
+
+}
+
+#my-pic img{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+}
+
+#my-self{
+    font-family:georgia;
+    font-weight:700;
+    margin-top:45px;
+    margin-right:255px;
+    margin-left:255px;
+    color:darkslategrey;
+
+}
+
+.text-highlight{
+    color:cadetblue;
+
+}
+
+#my-pic img:hover{
+    box-shadow:0px 0px 6px 4px lightskyblue;
+}
+
+.text-highlight:hover{
+    color:lightseagreen;
+    align-items:
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
