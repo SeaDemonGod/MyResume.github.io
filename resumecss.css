@@ -7,7 +7,7 @@ body{
 
 #bodyheader{
     height:65vh;
-    opacity:0.9;
+    opacity:0.8;
     background-image: url(image/clockdesk.jpg);
     background-size:cover;
     background-position: center;
@@ -20,11 +20,14 @@ body{
 .horizontal-list{
     list-style:none;
     padding-left:0px;
+    margin:0px;
 }
 
 .horizontal-list li{
     display: inline-block;
     margin:0px 8px 8px 0px;
+    font-weight:100;
+    font-size:0.9rem;
 }
 
 .horizontal-list li a{
@@ -172,6 +175,121 @@ body{
     vertical-align:middle;
 }
 
+
+
+/* Timeline */
+
+.timeline{
+    position:relative;
+    width:75%;
+}
+
+.timeline-box{
+    position:relative;
+    padding:5px;
+    width:40%;
+    left:5%;
+    min-height:150px;
+    text-align: right;
+}
+
+.timeline-box:nth-child(2n){
+    left:53%;
+}
+
+
+.timeline-box:nth-child(2n+1)::after{
+    content:"";
+    position:absolute;
+    top:25%;
+    right:-11.95%;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    background-color: lightgrey;
+    z-index:1;
+}
+.timeline-box:nth-child(2n)::after{
+    content:"";
+    position:absolute;
+    top:25%;
+    left:-8.56%;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    background-color: lightgrey;
+    z-index:1;
+}
+.timeline-container{
+    padding:8px;
+}
+
+.timeline-logo{
+    position:absolute;
+    width:50px;
+    overflow:hidden;
+}
+
+.timeline-logo>img{
+    width:100%;
+}
+
+
+.timeline-divider{
+    position: absolute;
+    height:66%;
+    width:0;
+    border:1px dashed #0096fa6b;
+    top:10%;
+    left:50%;
+    color:#433E3F;
+}
+.timeline-divider .timeline-traveller{
+    position:sticky;
+    top:135px;
+    z-index:2;
+}
+
+.timeline-divider i{
+    transform:rotate(90deg);
+    margin-top: -35px;
+    display:block;
+    color: #2857a4
+}
+
+.experience-designation{
+    font-size: 1.4rem;
+}
+
+.experience-company-name{
+    margin:5px 0 0;
+    color:#eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.experience-duration{
+    color:#9e9b9b;
+    font-weight: 100;
+    color:grey;
+    font-size: 1rem;
+}
+
+.experience-description{
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+}
+
+.text-align-justify{
+    text-align:justify;
+}
+
+
+
+
+
 /* portfolio section */
 
 #portfolio-container{
@@ -186,7 +304,7 @@ body{
 .portfolio-image-container{
     max-width:300px;
     overflow:hidden;
-    margin:10px;
+    margin:30px;
     background-size:cover;
     background-repeat:no-repeat;
     position:relative;
@@ -224,6 +342,7 @@ section{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 section:nth-child(2n){
@@ -353,6 +472,11 @@ button:focus {
 
 /* Common class color margin background-color percentage */
 
+.m0{
+    margin:0;
+}
+
+
 .mb75px{
     margin-bottom: 75px;
 }
@@ -399,6 +523,60 @@ button:focus {
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
