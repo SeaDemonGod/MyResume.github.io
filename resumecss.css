@@ -656,6 +656,10 @@ button:focus {
         top: 10%;
         left: 2%;
     }
+     #experience .timeline-divider {
+        top: 10%;
+        left: 2%;
+    }
 
     #contact-form {
         margin-left: 0%;
